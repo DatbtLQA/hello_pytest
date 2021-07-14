@@ -1,0 +1,59 @@
+1626169485576	geckodriver	INFO	Listening on 127.0.0.1:55498
+1626169488639	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\LQA\\AppData\\Local\\Temp\\rust_mozprofilePDU7lX"
+1626169489794	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\LQA\\AppData\\Local\\Temp\\rust_mozprofilePDU7lX\\search.json.mozlz4", (void 0)))
+1626169492594	Marionette	INFO	Listening on port 49951
+1626169492870	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626169497288	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=vi_VN&callback=onApiLoad, line 103: Error: Could not load "overlay".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=vi_VN&callback=onApiLoad, line 103: Error: Could not load "map".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=vi_VN&callback=onApiLoad, line 103: Error: Could not load "map".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=vi_VN&callback=onApiLoad, line 103: Error: Could not load "util".
+JavaScript error: https://maps.googleapis.com/maps/api/js?client=google-maps-embed&paint_origin=&libraries=geometry,search&v=3.exp&language=vi_VN&callback=onApiLoad, line 103: Error: Could not load "util".
+JavaScript error: https://www.clarity.ms/tag/4xbyygp4ib, line 1: TypeError: c.q is undefined
+1626169507103	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1626169508031	Marionette	INFO	Stopped listening on port 49951
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1626232732534	geckodriver	INFO	Listening on 127.0.0.1:56290
+1626232735570	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\LQA\\AppData\\Local\\Temp\\rust_mozprofilejTVlta"
+1626232736646	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\LQA\\AppData\\Local\\Temp\\rust_mozprofilejTVlta\\search.json.mozlz4", (void 0)))
+1626232739811	Marionette	INFO	Listening on port 56298
+1626232739912	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626232740050	Marionette	INFO	Stopped listening on port 56298
+console.warn: services.settings: main/message-groups sync interrupted by shutdown
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1626232946520	geckodriver	INFO	Listening on 127.0.0.1:53984
+1626232949551	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\LQA\\AppData\\Local\\Temp\\rust_mozprofileQW59xe"
+1626232950038	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\LQA\\AppData\\Local\\Temp\\rust_mozprofileQW59xe\\search.json.mozlz4", (void 0)))
+1626232952484	Marionette	INFO	Listening on port 53993
+1626232952740	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626232963097	Marionette	INFO	Stopped listening on port 53993
+1626233126538	geckodriver	INFO	Listening on 127.0.0.1:63912
+1626233129597	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\LQA\\AppData\\Local\\Temp\\rust_mozprofilerK6oVs"
+1626233130085	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\LQA\\AppData\\Local\\Temp\\rust_mozprofilerK6oVs\\search.json.mozlz4", (void 0)))
+1626233132594	Marionette	INFO	Listening on port 63920
+1626233132790	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626233137834	Marionette	INFO	Stopped listening on port 63920
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\LQA\AppData\Local\Temp\rust_mozprofilerK6oVs\protections.sqlite
+1626233268880	geckodriver	INFO	Listening on 127.0.0.1:59525
+1626233271949	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\LQA\\AppData\\Local\\Temp\\rust_mozprofilekOPzz9"
+1626233272678	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\LQA\\AppData\\Local\\Temp\\rust_mozprofilekOPzz9\\search.json.mozlz4", (void 0)))
+1626233275187	Marionette	INFO	Listening on port 59533
+1626233275668	Marionette	WARN	TLS certificate errors will be ignored for this session
+1626233280095	Marionette	INFO	Stopped listening on port 59533
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\LQA\AppData\Local\Temp\rust_mozprofilekOPzz9\protections.sqlite
