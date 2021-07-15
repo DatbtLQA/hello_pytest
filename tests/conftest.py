@@ -18,7 +18,9 @@ def init_driver(request):
     if request.param == "firefox":
         web_driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
     elif request.param == "chrome":
-        web_driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
+        chrome_path = ChromeDriverManager().install()
+        print(chrome_path)
+        web_driver = webdriver.Chrome(executable_path=chrome_path)
     web_driver.set_window_position(0, 0)
     web_driver.set_window_size(2048, 1768)
     web_driver.get(url.BASE_URL)
