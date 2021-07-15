@@ -4,10 +4,12 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium import webdriver
 from config import url
 import json
+from utils import helper
 
 
 def get_user_data():
-    with open('../data/input/data.txt', 'r') as json_file:
+    file_name = helper.get_absolute_path('/data/input/data.txt')
+    with open(file_name, 'r') as json_file:
         json_object = json.load(json_file)
     return json_object
 
