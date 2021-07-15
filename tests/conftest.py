@@ -8,7 +8,7 @@ from utils import helper
 
 
 def get_user_data():
-    file_name = helper.get_absolute_path('/data/input/data.txt')
+    file_name = helper.get_absolute_path('data/input/data.txt')
     with open(file_name, 'r') as json_file:
         json_object = json.load(json_file)
     return json_object
